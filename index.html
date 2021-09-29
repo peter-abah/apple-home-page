@@ -3,38 +3,49 @@
 
 <head>
   <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
   <title>Apple</title>
 </head>
 
 <body>
-  <nav>
-    <ul>
-      <li><a href=""><img src="images/apple-icon.png" alt="Apple"></a></li>
-      <li><a href="">Store</a></li>
-      <li><a href="">Mac</a></li>
-      <li><a href="">Ipod</a></li>
-      <li><a href="">Iphone</a></li>
-      <li><a href="">Ipad</a></li>
-      <li><a href="">Itunes</a></li>
-      <li><a href="">Support</a></li>
-      <li>
-        <form action="/" method="get">
-          <input type="search">
-        </form>
-      </li>
-    </ul>
-  </nav>
+  <div class="header-wrapper">
+    <nav class="main-nav">
+      <ul class="nav-links">
+        <li><a class="nav-link" href=""><img class="main-icon" src="images/apple-icon.png" alt="Apple"></a></li>
+        <li><a class="nav-link" href="">Store</a></li>
+        <li><a class="nav-link" href="">Mac</a></li>
+        <li><a class="nav-link" href="">Ipod</a></li>
+        <li><a class="nav-link" href="">Iphone</a></li>
+        <li><a class="nav-link" href="">Ipad</a></li>
+        <li><a class="nav-link" href="">Itunes</a></li>
+        <li><a class="nav-link" href="">Support</a></li>
+        <li class="search-form-wrapper">
+          <form action="/" method="get">
+            <input class="search-input" type="search">
+          </form>
+        </li>
+      </ul>
+    </nav>
 
-  <header>
-    <h1>What will your verse be</h1>
-    <h2>
-      Everyone has something to share. See how people are using
-      iPad in their unique ways to add to the world's story.
-    </h2>
-    <h3><a href="">Watch the "Your Verse" film and explore the stories</a></h3>
-  </header>
+    <header class="header">
+      <h1 class="heading">What will your verse be</h1>
+      <h2 class="sub-heading">
+        Everyone has something to share. See how people are using
+        iPad in their unique ways to add to the world's story.
+      </h2>
+      <p><a class="film" href="">Watch the "Your Verse" film and explore the stories
+        <span class="material-icons-outlined play">play_circle</span></a></p>
+    </header>
+  </div>
 
-  <section>
+  <section class="products">
     <img src="images/iphone5s.jpg" alt="Iphone 5, forward thinking">
     <img src="images/iphone5c.jpg" alt="Iphone 5c, for the colorful">
     <img src="images/30_years.jpg" alt="Happy Birthday Mac, Explore 30 years of innovation">
@@ -43,21 +54,26 @@
 
   <footer>
     <div class="wrapper">
-      <p>Shop the Apple Online Store (1-800-MY-APPLE), visit an Apple 
-      Retail Store, or find a reseller.</p>
-      <p>Copyright © 2014 Apple Inc. All rights reserved. Terms of Use
-      Privacy Policy</p>
+      <p>Shop the <a href="#">Apple Online Store</a> (1-800-MY-APPLE), visit an <a href="#">Apple 
+        Retail Store</a>, or find a <a href="#">reseller.</a></p>
+      <div class="copyright">
+        <p>Copyright © 2014 Apple Inc. All rights reserved.</p>
+        <ul class="footer-links">
+          <li><a href="#" class="footer-link">Terms of use</a></li>
+          <li><a href="#" class="footer-link">Privacy Policy</a></li>
+        </ul>
+      </div>
     </div>
 
-    <ul>
-      <li><a href="">Site Map</a></li>
-      <li><a href="">Hot News</a></li>
-      <li><a href="">RSS Feeds</a></li>
-      <li><a href="">Media Info</a></li>
-      <li><a href="">Enviroment</a></li>
-      <li><a href="">Job Opportunities</a></li>
-      <li><a href="">Contact Us</a></li>
-      <li><a href=""></a></li>
+    <ul class="footer-links">
+      <li><a class="footer-link" href="">Site Map</a></li>
+      <li><a class="footer-link" href="">Hot News</a></li>
+      <li><a class="footer-link" href="">RSS Feeds</a></li>
+      <li><a class="footer-link" href="">Media Info</a></li>
+      <li><a class="footer-link" href="">Enviroment</a></li>
+      <li><a class="footer-link" href="">Job Opportunities</a></li>
+      <li><a class="footer-link" href="">Contact Us</a></li>
+      <li><a class="footer-link" href=""><img src="images/usa.png" alt="USA"></a></li>
     </ul>
   </footer>
 </body>
