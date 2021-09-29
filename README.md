@@ -2,4 +2,4 @@
 
 This is a clone of [Apple old home page](https://web.archive.org/web/20140301004610/http://www.apple.com/) done with HTML and CSS.
 
-View it live [here](link)
+View it live [here](https://peter-abah.github.io/apple-home-page/)
